@@ -11,6 +11,10 @@ Provides transaction naming based on Controller/Action/Params in NewRelic
 
 ```composer require voycey/cakephp-newrelic```
 
+or Add:
+
+```"voycey/cakephp-newrelic": "~0.1"``` to your composer.json
+
 ## Enable it
 
 Add ```Plugin::load('Voycey/NewRelic', ['bootstrap' => true]);``` to your bootstrap.php to load the Plugin
