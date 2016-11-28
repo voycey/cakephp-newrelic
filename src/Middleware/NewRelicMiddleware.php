@@ -38,8 +38,6 @@ class NewRelicMiddleware
             $transaction = Inflector::dasherize($plugin) . '/' . $transaction;
         }
 
-        debug($transaction);
-
         return $transaction;
     }
 }
