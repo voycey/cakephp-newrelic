@@ -1,7 +1,7 @@
 <?php
 
 use Cake\Event\EventManager;
-use Voycey\NewRelicMiddleware;
+use Voycey\NewRelic\Middleware\NewRelicMiddleware;
 
 EventManager::instance()->on(
     'Server.buildMiddleware',
