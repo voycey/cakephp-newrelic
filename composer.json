@@ -1,0 +1,35 @@
+{
+    "name": "voycey/cakephp-newrelic",
+    "description": "Adds transaction naming to NewRelic for CakePHP 3",
+    "type": "cakephp-plugin",
+    "keywords": [
+        "cakephp",
+        "newrelic",
+        "transaction name",
+        "middleware"
+    ],
+    "homepage": "https://github.com/voycey/cakephp-newrelic",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dan Voyce",
+            "homepage": "http://github.com/voycey",
+            "role": "Author"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/voycey/cakephp-newrelic/issues",
+        "source": "https://github.com/voycey/cakephp-newrelic"
+    },
+    "require": {
+        "cakephp/cakephp": "3.3.9"
+    },
+    "require-dev": {
+        "cakephp/cakephp": "3.3.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Voycey\\NewRelic\\": "src"
+        }
+    }
+}
