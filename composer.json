@@ -22,10 +22,10 @@
         "source": "https://github.com/voycey/cakephp-newrelic"
     },
     "require": {
-        "cakephp/cakephp": "3.3.9"
+        "cakephp/cakephp": ">=3.3.9"
     },
     "require-dev": {
-        "cakephp/cakephp": "3.3.9"
+        "cakephp/cakephp": ">=3.3.9"
     },
     "autoload": {
         "psr-4": {
